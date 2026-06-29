@@ -1,4 +1,4 @@
-function verificarMaioridade(idade) {
+function verificarMaioridade(idade: number): string {
     if (idade >= 18) {
         return "Maior de idade";
     } else {
